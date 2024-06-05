@@ -12,7 +12,6 @@ const Blog = () => {
       .then(data => setPosts(data));
   }, []);
 
-  console.log(posts)
 
   return (
     <div className="container mx-auto p-4">
